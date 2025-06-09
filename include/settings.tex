@@ -1,0 +1,24 @@
+
+\renewcommand{\contentsname}{Inhalt}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\pagecolor[HTML]{0a0c0f}
+\color[HTML]{DFE0EA}
+
+\definecolor{myred}{HTML}{ED5C66}      % color1 red
+\definecolor{myyellow}{HTML}{E9D26C}   % color3 yellow
+\definecolor{mygreen}{HTML}{70D468}    % color2 green
+
+% Set section title format with colors
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{myred}} % red for sections
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{myyellow}} % yellow for subsections
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\color{mygreen}} % green for subsubsections
+  {\thesubsubsection}{1em}{}
