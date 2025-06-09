@@ -25,3 +25,14 @@
   {\thesubsubsection}{1em}{}
 
 \newcommand{\point}[1]{\textcolor{magenta}{\textbf{#1}}}
+
+
+\newcommand{\ttflushleft}[1]{%
+  {\ttfamily
+   \hyphenchar\font=`\-
+   \sloppy
+   \begin{FlushLeft}
+   #1
+   \end{FlushLeft}
+  }%
+}
